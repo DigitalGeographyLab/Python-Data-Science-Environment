@@ -45,7 +45,7 @@ Here are packages that are helpful when doing data analysis with Python:
    -  [Shapely](http://toblerity.org/shapely/manual.html) --> Python package for manipulation and analysis of planar geometric objects (based on widely deployed [GEOS](https://trac.osgeo.org/geos/)).
    -  [GDAL](http://www.gdal.org/) --> Fundamental package for processing vector and raster data formats (many modules depend on this). 
    -  [Fiona](https://pypi.python.org/pypi/Fiona) --> Reading and writing spatial data (required by geopandas).
-   -  [Pyproj](https://pypi.python.org/pypi/pyproj?) --> Performs cartographic transformations and geodetic computations (based on PROJ.4](http://trac.osgeo.org/proj)).
+   -  [Pyproj](https://pypi.python.org/pypi/pyproj?) --> Performs cartographic transformations and geodetic computations (based on [PROJ.4](http://trac.osgeo.org/proj)).
    -  [Pysal](https://pysal.readthedocs.org/en/latest) --> Library of spatial analysis functions written in Python.
    -  [Cartopy](http://scitools.org.uk/cartopy/docs/latest/index.html) --> Make drawing maps for data analysis and visualisation as easy as possible.
    - [Rtree](http://toblerity.org/rtree/) --> Spatial indexing for Python for quick spatial lookups.

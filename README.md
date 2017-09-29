@@ -65,40 +65,40 @@ Versions of the packages as of 29.9.2017 (on Windows).
 # Install numpy (v 1.13.1)
 conda install numpy
 
-# Install pandas (v 0.20.3) --> python-dateutil (v 2.6.1) and pytz (v 2017.2) will be installed as well
+# Install pandas (v 0.20.3) --> bundled with python-dateutil (v 2.6.1) and pytz (v 2017.2)
 conda install pandas
 
 # Install scipy (v 0.19.1)
 conda install scipy
 
-# Install matplotlib (v 2.0.2) and its dependencies (cycler, freetype, icu, jpeg, libpng, pyqt, qt, sip, sqlite, tornado, zlib)
+# Install matplotlib (v 2.0.2) --> bundled with cycler, freetype, icu, jpeg, libpng, pyqt, qt, sip, sqlite, tornado, zlib
 conda install matplotlib
 
 # Install scikit-learn (v 0.19.0)
 conda install scikit-learn
 
-# Install networkx (v 1.11) --> and decorator (v 4.1.2)
+# Install networkx (v 1.11) --> bundled with decorator (v 4.1.2)
 conda install networkx
 
-# Install bokeh (v 0.12.9) --> comes with jinja2, markupsafe, pyyaml, yaml -packages
+# Install bokeh (v 0.12.9) --> bundled with jinja2, markupsafe, pyyaml, yaml -packages
 conda install bokeh
 
-# Install statsmodels (v 0.8.0) --> comes with patsy (0.4.1)
+# Install statsmodels (v 0.8.0) --> bundled with patsy (0.4.1)
 conda install statsmodels
 
-# Install PySpark (v 2.2.0) --> comes with py4j (v 0.10.6)
+# Install PySpark (v 2.2.0) --> bundled with py4j (v 0.10.6)
 conda install pyspark
 
-# Install Geopandas (v 0.3.0) --> comes with click, click-plugins, cligj, curl, descartes, expat, fiona, freexl, gdal, geos, hdf4, hdf5, kealib, krb5, libiconv, libnetcdf, libpq, libspatialindex, libspatialite, libtiff, libxml2, munch, openjpeg, pcre, proj4, psycopg2, pyproj, pysal, rtree, shapely, sqlalchemy, xerces-c
+# Install Geopandas (v 0.3.0) --> bundled with click, click-plugins, cligj, curl, descartes, expat, fiona, freexl, gdal, geos, hdf4, hdf5, kealib, krb5, libiconv, libnetcdf, libpq, libspatialindex, libspatialite, libtiff, libxml2, munch, openjpeg, pcre, proj4, psycopg2, pyproj, pysal, rtree, shapely, sqlalchemy, xerces-c
 conda install -c conda-forge geopandas
 
-# Install cartopy (v ) 
-conda install -c scitools cartopy 
+# Install cartopy (v 0.15.1) --> bundled with libxslt, lxml, olefile, owslib, pillow, pyepsg, pyshp 
+conda install -c conda-forge cartopy
 
-# Install geoplot (v )
-conda install -c conda-forge geoplot
+# Install geoplot (v 0.0.4) using pip (on Linux: be sure to use pip that comes with conda distribution!) --> bundled with seaborn
+pip install geoplot
 
-# Install osmnx (v )
+# Install osmnx (v 0.5.4) --> bundled with altair, bleach, branca, colorama, entrypoints, folium, geopy, html5lib, ipykernel, ipython, ipython_genutils, jedi, jsonschema, jupyter_client, jupyter_core, mistune, nbconvert, nbformat, notebook, pandoc, pandocfilters, pickleshare, prompt_toolkit, pygments, pyzmq, simplegeneric, testpath, traitlets, vega, vincent, wcwidth, webencodings
 conda install -c conda-forge osmnx
 
 ```

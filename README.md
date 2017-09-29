@@ -22,7 +22,7 @@ For this purpose, there is a [**mini-conda** package distribution](https://conda
  
 You can see the [whole archive from here](https://repo.continuum.io/miniconda/).
  
-### Installing Python packages for (geo)data science
+### Python packages for (geo)data science
  
 Here are packages that are helpful when doing data analysis with Python:
 
@@ -30,6 +30,8 @@ Here are packages that are helpful when doing data analysis with Python:
 
    - [Numpy](http://www.numpy.org/) --> Fundamental package for scientific computing with Python
    - [Pandas](http://pandas.pydata.org/) --> High-performance, easy-to-use data structures and data analysis tools
+   - [Python-dateutil](https://dateutil.readthedocs.io/en/stable/) --> Powerful extensions to basic datetime functions
+   - [Pytz](https://pypi.python.org/pypi/pytz) --> World TimeZone definitions for working with time-data
    - [Scipy](http://www.scipy.org/about.html) --> A collection of numerical algorithms and domain-specific toolboxes, including
       signal processing, optimization and statistics
    - [Matplotlib](http://matplotlib.org/) --> Basic plotting library for Python
@@ -53,5 +55,51 @@ Here are packages that are helpful when doing data analysis with Python:
    - [OSMnx](https://github.com/gboeing/osmnx) --> Python for street networks. Retrieve, construct, analyze, and visualize street networks from OpenStreetMap
    
    
-   
+### Installation of the packages
+
+Using conda it is easy to install the packages above by running following commands in Terminal. 
+
+Versions of the packages as of 29.9.2017 (on Windows).
+
+```
+# Install numpy (v 1.13.1)
+conda install numpy
+
+# Install pandas (v 0.20.3) --> python-dateutil (v 2.6.1) and pytz (v 2017.2) will be installed as well
+conda install pandas
+
+# Install scipy (v 0.19.1)
+conda install scipy
+
+# Install matplotlib (v 2.0.2) and its dependencies (cycler, freetype, icu, jpeg, libpng, pyqt, qt, sip, sqlite, tornado, zlib)
+conda install matplotlib
+
+# Install scikit-learn (v 0.19.0)
+conda install scikit-learn
+
+# Install networkx (v 1.11) --> and decorator (v 4.1.2)
+conda install networkx
+
+# Install bokeh (v 0.12.9) --> comes with jinja2, markupsafe, pyyaml, yaml -packages
+conda install bokeh
+
+# Install statsmodels (v 0.8.0) --> comes with patsy (0.4.1)
+conda install statsmodels
+
+# Install PySpark (v 2.2.0) --> comes with py4j (v 0.10.6)
+conda install pyspark
+
+# Install Geopandas (v 0.3.0) --> comes with click, click-plugins, cligj, curl, descartes, expat, fiona, freexl, gdal, geos, hdf4, hdf5, kealib, krb5, libiconv, libnetcdf, libpq, libspatialindex, libspatialite, libtiff, libxml2, munch, openjpeg, pcre, proj4, psycopg2, pyproj, pysal, rtree, shapely, sqlalchemy, xerces-c
+conda install -c conda-forge geopandas
+
+# Install cartopy (v ) 
+conda install -c scitools cartopy 
+
+# Install geoplot (v )
+conda install -c conda-forge geoplot
+
+# Install osmnx (v )
+conda install -c conda-forge osmnx
+
+```
 

@@ -57,7 +57,7 @@ Here are packages that are helpful when doing data analysis with Python:
    
 ### Installation of the packages
 
-Using conda it is easy to install the packages above by running following commands in Terminal. 
+After you have installed mini-conda, it is easy to install the Python packages above by running following commands in Terminal. 
 
 Versions of the packages as of 29.9.2017 (on Windows).
 

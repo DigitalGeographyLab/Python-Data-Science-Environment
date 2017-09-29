@@ -122,4 +122,4 @@ You can test that the installations have worked by running following commands in
  import geoplot
  import osmnx
  ```
- 
+ If you don't receive any errors, everything should be working!

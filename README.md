@@ -34,13 +34,24 @@ Here are packages that are helpful when doing data analysis with Python:
       signal processing, optimization and statistics
    - [Matplotlib](http://matplotlib.org/) --> Basic plotting library for Python
    - [Scikit-learn](http://scikit-learn.org/stable/) --> Machine learning library for Python
+   - [NetworkX](https://networkx.github.io/) --> NetworkX is a Python package for the creation, manipulation, and study of the structure, dynamics, and functions of complex networks.
    - [Bokeh](http://bokeh.pydata.org/en/latest/) --> Interactive visualizations for the web (also maps)
    - [Statsmodels](http://www.statsmodels.org/stable/index.html) --> Statistical methods for Python
    - [PySpark](https://spark.apache.org/docs/0.9.0/python-programming-guide.html) --> Python wrapper for Spark
    
 #### GIS related packages (spatial analysis)
 
-   - 
+   -  [Geopandas](http://geopandas.org/#description) --> Working with geospatial data in Python made easier, combines the capabilities of pandas and shapely.
+   -  [Shapely](http://toblerity.org/shapely/manual.html) --> Python package for manipulation and analysis of planar geometric objects (based on widely deployed [GEOS](https://trac.osgeo.org/geos/)).
+   -  [GDAL](http://www.gdal.org/) --> Fundamental package for processing vector and raster data formats (many modules depend on this). 
+   -  [Fiona](https://pypi.python.org/pypi/Fiona) --> Reading and writing spatial data (required by geopandas).
+   -  [Pyproj](https://pypi.python.org/pypi/pyproj?) --> Performs cartographic transformations and geodetic computations (based on PROJ.4](http://trac.osgeo.org/proj)).
+   -  [Pysal](https://pysal.readthedocs.org/en/latest) --> Library of spatial analysis functions written in Python.
+   -  [Cartopy](http://scitools.org.uk/cartopy/docs/latest/index.html) --> Make drawing maps for data analysis and visualisation as easy as possible.
+   - [Rtree](http://toblerity.org/rtree/) --> Spatial indexing for Python for quick spatial lookups.
+   - [Geoplot](https://github.com/ResidentMario/geoplot) --> High-level geospatial data visualization library for Python. 
+   - [OSMnx](https://github.com/gboeing/osmnx) --> Python for street networks. Retrieve, construct, analyze, and visualize street networks from OpenStreetMap
+   
    
    
 

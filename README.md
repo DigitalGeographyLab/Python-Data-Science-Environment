@@ -20,6 +20,27 @@ For this purpose, there is a [**mini-conda** package distribution](https://conda
  - [Miniconda3 v4.3.21 - **Windows 64 bit** ](https://repo.continuum.io/miniconda/Miniconda3-4.3.21-Windows-x86_64.exe)
  - [Miniconda3 v4.3.21 - **MacOSX** ](https://repo.continuum.io/miniconda/Miniconda3-4.3.21-MacOSX-x86_64.sh)
  
+You can see the [whole archive from here](https://repo.continuum.io/miniconda/).
  
+### Installing Python packages for (geo)data science
  
+Here are packages that are helpful when doing data analysis with Python:
+
+#### Data analysis & Visualization
+
+   - [Numpy](http://www.numpy.org/) --> Fundamental package for scientific computing with Python
+   - [Pandas](http://pandas.pydata.org/) --> High-performance, easy-to-use data structures and data analysis tools
+   - [Scipy](http://www.scipy.org/about.html) --> A collection of numerical algorithms and domain-specific toolboxes, including
+      signal processing, optimization and statistics
+   - [Matplotlib](http://matplotlib.org/) --> Basic plotting library for Python
+   - [Scikit-learn](http://scikit-learn.org/stable/) --> Machine learning library for Python
+   - [Bokeh](http://bokeh.pydata.org/en/latest/) --> Interactive visualizations for the web (also maps)
+   - [Statsmodels](http://www.statsmodels.org/stable/index.html) --> Statistical methods for Python
+   - [PySpark](https://spark.apache.org/docs/0.9.0/python-programming-guide.html) --> Python wrapper for Spark
+   
+#### GIS related packages (spatial analysis)
+
+   - 
+   
+   
 

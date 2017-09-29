@@ -1,6 +1,6 @@
-# Python-Data-Science-Environment
+# Python Data Science Environment
 
-The purpose of this page is to help you to install Python and different Python packages into your own computer / server.
+The purpose of this page is to help you to install Python and different Python packages into your own computer / server using Anaconda distribution package.
 
 ## Anaconda Python distribution package
 

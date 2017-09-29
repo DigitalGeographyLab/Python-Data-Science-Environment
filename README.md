@@ -10,7 +10,7 @@ Even though it is possible to install Python from their homepage, we highly reco
 
 The basic Anaconda distribution package comes with [large number of different packages](https://docs.anaconda.com/anaconda/packages/pkg-docs). **However, in some cases you don't want to install those but to specify yourself exactly what packages should be installed.**
 
-For this purpose, there is a [**mini-conda** package distribution](https://conda.io/docs/glossary.html#miniconda-glossary) available that basically comes with only Python interpreter and the conda package manager that can be used to install Python packages easily. 
+For this purpose, there is a [**mini-conda** package distribution](https://conda.io/docs/glossary.html#miniconda-glossary) available that basically comes with only Python interpreter and the conda package manager that can be used to install Python packages easily. See installation directions for [**Linux**](https://conda.io/docs/user-guide/install/linux.html), [**Windows**](https://conda.io/docs/user-guide/install/windows.html), and [**Mac**](https://conda.io/docs/user-guide/install/macos.html). 
 
 #### Download links for mini-conda installers (version 4.3.21)
 

@@ -102,4 +102,23 @@ pip install geoplot
 conda install -c conda-forge osmnx
 
 ```
+### Test that everything works
 
+You can test that the installations have worked by running following commands in your IPython console (comes with mini-conda).
+
+ ```python
+ import numpy as np
+ import pandas as pd
+ import geopandas as gpd
+ import scipy
+ import shapely
+ import matplotlib.pyplot as plt
+ import pysal
+ import bokeh
+ import statsmodels
+ import sklearn
+ import pyspark
+ import geoplot
+ import osmnx
+ ```
+ 

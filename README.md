@@ -59,7 +59,7 @@ Here are packages that are helpful when doing data analysis with Python:
 
 After you have installed mini-conda, it is easy to install the Python packages above by running following commands in Terminal. 
 
-Versions of the packages as of 29.9.2017 (on Windows).
+Versions of the packages as of 29.9.2017 (on Windows). Following installation commands should work similarly with all operating systems (Windows, Mac, Linux)
 
 ```
 # Install numpy (v 1.13.1)

@@ -115,6 +115,7 @@ You can test that the installations have worked by running following commands in
  import matplotlib.pyplot as plt
  import pysal
  import bokeh
+ import cartopy
  import statsmodels
  import sklearn
  import pyspark

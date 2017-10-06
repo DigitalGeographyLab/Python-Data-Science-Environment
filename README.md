@@ -40,6 +40,7 @@ Here are packages that are helpful when doing data analysis with Python:
    - [Bokeh](http://bokeh.pydata.org/en/latest/) --> Interactive visualizations for the web (also maps)
    - [Statsmodels](http://www.statsmodels.org/stable/index.html) --> Statistical methods for Python
    - [PySpark](https://spark.apache.org/docs/0.9.0/python-programming-guide.html) --> Python wrapper for Spark
+   - [Spyder IDE](https://pythonhosted.org/spyder/) --> Scientific PYthon Development EnviRonment ([IDE](https://en.wikipedia.org/wiki/Integrated_development_environment))
    
 #### GIS related packages (spatial analysis)
 
@@ -100,6 +101,9 @@ pip install geoplot
 
 # Install osmnx (v 0.5.4) --> bundled with altair, bleach, branca, colorama, entrypoints, folium, geopy, html5lib, ipykernel, ipython, ipython_genutils, jedi, jsonschema, jupyter_client, jupyter_core, mistune, nbconvert, nbformat, notebook, pandoc, pandocfilters, pickleshare, prompt_toolkit, pygments, pyzmq, simplegeneric, testpath, traitlets, vega, vincent, wcwidth, webencodings
 conda install -c conda-forge osmnx
+
+# Install Spyder
+conda install -c anaconda spyder 
 
 ```
 ### Test that everything works
